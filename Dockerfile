@@ -6,8 +6,7 @@ USER root
 RUN conda config --add channels conda-forge
 RUN conda install -y vim
 
-COPY app.py /source/app/
-COPY requirements.txt /source/app/
+COPY app /source/app/
 RUN conda install -y --file /source/app/requirements.txt
 
 EXPOSE 8050

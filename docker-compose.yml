@@ -5,6 +5,6 @@ app:
   ports:
     - 8051:8050
   volumes:
-    - $PWD:/source/app
+    - $PWD/app:/source/app
   command: ['python', '-u', '/source/app/app.py']
 
