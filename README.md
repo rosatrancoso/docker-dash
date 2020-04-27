@@ -9,4 +9,5 @@ if __name__ == "__main__":
 
 Example apps:
 - https://dash.plotly.com/
+- https://github.com/plotly/dash-sample-apps
 - https://github.com/austinlasseter/flying-dog-beers/blob/master/app.py
