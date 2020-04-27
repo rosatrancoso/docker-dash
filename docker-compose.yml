@@ -1,0 +1,10 @@
+
+app:
+  build: .
+  tty: True
+  ports:
+    - 8051:8050
+  volumes:
+    - $PWD:/source/app
+  command: ['python', '-u', '/source/app/app.py']
+
